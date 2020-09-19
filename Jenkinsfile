@@ -1,6 +1,6 @@
 pipeline {
 agent any
-stage('Build') {
+stage('Upload to AWS') {
 steps {
 sh 'echo "Hello world"'
 sh '''
